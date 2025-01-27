@@ -2,16 +2,56 @@ import Category from "../models/category";
 import Flashcard from "../models/flashcard";
 
 export const CATEGORIES = [
-  new Category("c1", "Animal"),
-  new Category("c2", "Fruit"),
-  new Category("c3", "Vegetable"),
-  new Category("c4", "Vehicle"),
-  new Category("c5", "Profession"),
-  new Category("c6", "House"),
-  new Category("c7", "bedroom"),
-  new Category("c8", "Living Room"),
-  new Category("c9", "Bathroom"),
-  new Category("c10", "Kitchen"),
+  new Category(
+    "c1",
+    "Animal",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c2",
+    "Fruit",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c3",
+    "Vegetable",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c4",
+    "Vehicle",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c5",
+    "Profession",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c6",
+    "House",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c7",
+    "bedroom",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c8",
+    "Living Room",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c9",
+    "Bathroom",
+    require("../assets/images/professions/chemical.jpg")
+  ),
+  new Category(
+    "c10",
+    "Kitchen",
+    require("../assets/images/professions/chemical.jpg")
+  ),
 ];
 
 export const FLASHCARDS = [
