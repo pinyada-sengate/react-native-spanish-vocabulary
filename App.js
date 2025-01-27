@@ -12,9 +12,9 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: "#351401" },
+          headerStyle: { backgroundColor: "#4F42D8" },
           headerTintColor: "white",
-          contentStyle: { backgroundColor: "#32f25" },
+          contentStyle: { backgroundColor: "#F2F2F2" },
         }}
       >
         <Stack.Screen name="Categories" component={CategoriesScreen} />
