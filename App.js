@@ -1,9 +1,9 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import CategoriesScreen from "./screens/CategoriesScreen";
+import FlashcardScreen from "./screens/FlashcardScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +18,7 @@ export default function App() {
         }}
       >
         <Stack.Screen name="Categories" component={CategoriesScreen} />
+        <Stack.Screen name="Flashcard" component={FlashcardScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
