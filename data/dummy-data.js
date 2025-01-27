@@ -18,141 +18,141 @@ export const FLASHCARDS = [
   new Flashcard(
     "f1",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/chemical.jpg"),
     "química",
     "chemical"
   ),
   new Flashcard(
     "f2",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/firefighter.jpg"),
     "bombero",
     "firefighter"
   ),
   new Flashcard(
     "f3",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/pilot.jpg"),
     "piloto",
-    "firefighter"
+    "pilot"
   ),
   new Flashcard(
     "f4",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/judge.jpg"),
     "jueza",
-    "firefighter"
+    "judge"
   ),
   new Flashcard(
     "f5",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/electrician.jpg"),
     "electricista",
-    "firefighter"
+    "electrician"
   ),
   new Flashcard(
     "f6",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/teacher.jpg"),
     "maestra",
-    "firefighter"
+    "teacher"
   ),
   new Flashcard(
     "f7",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/dentist.jpg"),
     "dentista",
-    "firefighter"
+    "dentist"
   ),
   new Flashcard(
     "f8",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/cashier.jpg"),
     "cajera",
-    "firefighter"
+    "cashier"
   ),
   new Flashcard(
     "f9",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/computer-scientist.jpg"),
     "informático",
-    "firefighter"
+    "computer scientist"
   ),
   new Flashcard(
     "f10",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/photographer.jpg"),
     "fotógrafo",
-    "firefighter"
+    "photographer"
   ),
   new Flashcard(
     "f11",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/mailman.jpg"),
     "cartero",
-    "firefighter"
+    "mailman"
   ),
   new Flashcard(
     "f12",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/architect.jpg"),
     "arquitecta",
-    "firefighter"
+    "architect"
   ),
   new Flashcard(
     "f13",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/waiter.jpg"),
     "camarero",
-    "firefighter"
+    "waiter"
   ),
   new Flashcard(
     "f14",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/hairdresser.jpg"),
     "peluquero",
-    "firefighter"
+    "hairdresser"
   ),
   new Flashcard(
     "f15",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/journalist.jpg"),
     "periodista",
-    "firefighter"
+    "journalist"
   ),
   new Flashcard(
     "f16",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
-    "periodista",
-    "firefighter"
+    require("../assets/images/professions/veterinarian.jpg"),
+    "veterinaria",
+    "veterinarian"
   ),
   new Flashcard(
     "f17",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
-    "periodista",
-    "firefighter"
+    require("../assets/images/professions/chef.jpg"),
+    "cocinero",
+    "chef"
   ),
   new Flashcard(
     "f18",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/police.jpg"),
     "policía",
-    "firefighter"
+    "police"
   ),
   new Flashcard(
     "f19",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/doctor.jpg"),
     "médica",
-    "firefighter"
+    "doctor"
   ),
   new Flashcard(
     "f20",
     ["c5"],
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+    require("../assets/images/professions/singer.jpg"),
     "cantante",
-    "firefighter"
+    "singer"
   ),
 ];
