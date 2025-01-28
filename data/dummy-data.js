@@ -3,11 +3,7 @@ import Flashcard from "../models/flashcard";
 
 export const CATEGORIES = [
   new Category("c1", "Animales", require("../assets/images/animals/cat.jpg")),
-  new Category(
-    "c2",
-    "Fruit",
-    require("../assets/images/professions/chemical.jpg")
-  ),
+  new Category("c2", "Frutas", require("../assets/images/fruits/apple.jpg")),
   new Category(
     "c3",
     "Vegetable",
@@ -263,5 +259,40 @@ export const FLASHCARDS = [
     require("../assets/images/animals/duck.jpg"),
     "pato",
     "duck"
+  ),
+  new Flashcard(
+    "f35",
+    ["c2"],
+    require("../assets/images/fruits/apple.jpg"),
+    "manzana",
+    "apple"
+  ),
+  new Flashcard(
+    "f36",
+    ["c2"],
+    require("../assets/images/fruits/banana.jpg"),
+    "plátano",
+    "banana"
+  ),
+  new Flashcard(
+    "f37",
+    ["c2"],
+    require("../assets/images/fruits/pineapple.jpg"),
+    "piña",
+    "pineapple"
+  ),
+  new Flashcard(
+    "f38",
+    ["c2"],
+    require("../assets/images/fruits/strawberry.jpg"),
+    "fresa",
+    "strawberry"
+  ),
+  new Flashcard(
+    "f39",
+    ["c2"],
+    require("../assets/images/fruits/grape.jpg"),
+    "uva",
+    "grape"
   ),
 ];
