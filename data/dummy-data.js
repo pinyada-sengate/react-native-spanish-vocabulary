@@ -2,11 +2,7 @@ import Category from "../models/category";
 import Flashcard from "../models/flashcard";
 
 export const CATEGORIES = [
-  new Category(
-    "c1",
-    "Animal",
-    require("../assets/images/professions/chemical.jpg")
-  ),
+  new Category("c1", "Animales", require("../assets/images/animals/cat.jpg")),
   new Category(
     "c2",
     "Fruit",
@@ -24,32 +20,7 @@ export const CATEGORIES = [
   ),
   new Category(
     "c5",
-    "Profession",
-    require("../assets/images/professions/chemical.jpg")
-  ),
-  new Category(
-    "c6",
-    "House",
-    require("../assets/images/professions/chemical.jpg")
-  ),
-  new Category(
-    "c7",
-    "bedroom",
-    require("../assets/images/professions/chemical.jpg")
-  ),
-  new Category(
-    "c8",
-    "Living Room",
-    require("../assets/images/professions/chemical.jpg")
-  ),
-  new Category(
-    "c9",
-    "Bathroom",
-    require("../assets/images/professions/chemical.jpg")
-  ),
-  new Category(
-    "c10",
-    "Kitchen",
+    "Professiones",
     require("../assets/images/professions/chemical.jpg")
   ),
 ];
@@ -194,5 +165,103 @@ export const FLASHCARDS = [
     require("../assets/images/professions/singer.jpg"),
     "cantante",
     "singer"
+  ),
+  new Flashcard(
+    "f21",
+    ["c1"],
+    require("../assets/images/animals/cat.jpg"),
+    "gato",
+    "cat"
+  ),
+  new Flashcard(
+    "f22",
+    ["c1"],
+    require("../assets/images/animals/dog.jpg"),
+    "perro",
+    "dog"
+  ),
+  new Flashcard(
+    "f23",
+    ["c1"],
+    require("../assets/images/animals/bird.jpg"),
+    "pájaro",
+    "bird"
+  ),
+  new Flashcard(
+    "f24",
+    ["c1"],
+    require("../assets/images/animals/elephant.jpg"),
+    "elefante",
+    "elephant"
+  ),
+  new Flashcard(
+    "f25",
+    ["c1"],
+    require("../assets/images/animals/lion.jpg"),
+    "león",
+    "lion"
+  ),
+  new Flashcard(
+    "f26",
+    ["c1"],
+    require("../assets/images/animals/bear.jpg"),
+    "oso",
+    "bear"
+  ),
+  new Flashcard(
+    "f27",
+    ["c1"],
+    require("../assets/images/animals/horse.jpg"),
+    "caballo",
+    "horse"
+  ),
+  new Flashcard(
+    "f28",
+    ["c1"],
+    require("../assets/images/animals/tiger.jpg"),
+    "tigre",
+    "tiger"
+  ),
+  new Flashcard(
+    "f29",
+    ["c1"],
+    require("../assets/images/animals/bull.jpg"),
+    "toro",
+    "bull"
+  ),
+  new Flashcard(
+    "f30",
+    ["c1"],
+    require("../assets/images/animals/turtle.jpg"),
+    "tortuga",
+    "turtle"
+  ),
+  new Flashcard(
+    "f31",
+    ["c1"],
+    require("../assets/images/animals/pig.jpg"),
+    "cerdo",
+    "pig"
+  ),
+  new Flashcard(
+    "f32",
+    ["c1"],
+    require("../assets/images/animals/cow.jpg"),
+    "vaca",
+    "cow"
+  ),
+  new Flashcard(
+    "f33",
+    ["c1"],
+    require("../assets/images/animals/sheep.jpg"),
+    "oveja",
+    "sheep"
+  ),
+  new Flashcard(
+    "f34",
+    ["c1"],
+    require("../assets/images/animals/duck.jpg"),
+    "pato",
+    "duck"
   ),
 ];
