@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   image: {
-    width: 100,
+    width: "100%",
     height: 100,
   },
 });
