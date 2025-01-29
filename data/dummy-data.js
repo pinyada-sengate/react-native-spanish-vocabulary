@@ -6,8 +6,8 @@ export const CATEGORIES = [
   new Category("c2", "Frutas", require("../assets/images/fruits/apple.jpg")),
   new Category(
     "c3",
-    "Vegetable",
-    require("../assets/images/professions/chemical.jpg")
+    "Verduras",
+    require("../assets/images/vegetables/lettuce.jpg")
   ),
   new Category(
     "c4",
@@ -294,5 +294,47 @@ export const FLASHCARDS = [
     require("../assets/images/fruits/grape.jpg"),
     "uva",
     "grape"
+  ),
+  new Flashcard(
+    "f40",
+    ["c3"],
+    require("../assets/images/vegetables/lettuce.jpg"),
+    "lechuga",
+    "lettuce"
+  ),
+  new Flashcard(
+    "f41",
+    ["c3"],
+    require("../assets/images/vegetables/onion.jpg"),
+    "cebolla",
+    "onion"
+  ),
+  new Flashcard(
+    "f42",
+    ["c3"],
+    require("../assets/images/vegetables/garlic.jpg"),
+    "ajo",
+    "garlic"
+  ),
+  new Flashcard(
+    "f43",
+    ["c3"],
+    require("../assets/images/vegetables/pepper.jpg"),
+    "pimiento",
+    "pepper"
+  ),
+  new Flashcard(
+    "f44",
+    ["c3"],
+    require("../assets/images/vegetables/carrot.jpg"),
+    "zanahoria",
+    "carrot"
+  ),
+  new Flashcard(
+    "f45",
+    ["c3"],
+    require("../assets/images/vegetables/tomato.jpg"),
+    "tomate",
+    "tomato"
   ),
 ];
