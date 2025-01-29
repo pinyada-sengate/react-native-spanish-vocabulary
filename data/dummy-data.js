@@ -11,8 +11,8 @@ export const CATEGORIES = [
   ),
   new Category(
     "c4",
-    "Vehicle",
-    require("../assets/images/professions/chemical.jpg")
+    "Vehículos",
+    require("../assets/images/vehicles/bicycle.jpg")
   ),
   new Category(
     "c5",
@@ -336,5 +336,124 @@ export const FLASHCARDS = [
     require("../assets/images/vegetables/tomato.jpg"),
     "tomate",
     "tomato"
+  ),
+  new Flashcard(
+    "f46",
+    ["c4"],
+    require("../assets/images/vehicles/bicycle.jpg"),
+    "bicicleta",
+    "bicycle"
+  ),
+  new Flashcard(
+    "f47",
+    ["c4"],
+    require("../assets/images/vehicles/motorcycle.jpg"),
+    "moto",
+    "motorcycle"
+  ),
+  new Flashcard(
+    "f48",
+    ["c4"],
+    require("../assets/images/vehicles/car.jpg"),
+    "coche",
+    "car"
+  ),
+  new Flashcard(
+    "f49",
+    ["c4"],
+    require("../assets/images/vehicles/van.jpg"),
+    "furgoneta",
+    "van"
+  ),
+  new Flashcard(
+    "f50",
+    ["c4"],
+    require("../assets/images/vehicles/truck.jpg"),
+    "camión",
+    "truck"
+  ),
+  new Flashcard(
+    "f51",
+    ["c4"],
+    require("../assets/images/vehicles/tractor.jpg"),
+    "tractor",
+    "tractor"
+  ),
+  new Flashcard(
+    "f52",
+    ["c4"],
+    require("../assets/images/vehicles/taxi.jpg"),
+    "taxi",
+    "taxi"
+  ),
+  new Flashcard(
+    "f53",
+    ["c4"],
+    require("../assets/images/vehicles/ambulance.jpg"),
+    "ambulancia",
+    "ambulance"
+  ),
+  new Flashcard(
+    "f54",
+    ["c4"],
+    require("../assets/images/vehicles/bus.jpg"),
+    "autobús",
+    "bus"
+  ),
+  new Flashcard(
+    "f55",
+    ["c4"],
+    require("../assets/images/vehicles/metro.jpg"),
+    "metro",
+    "metro"
+  ),
+  new Flashcard(
+    "f56",
+    ["c4"],
+    require("../assets/images/vehicles/train.jpg"),
+    "tren",
+    "train"
+  ),
+  new Flashcard(
+    "f57",
+    ["c4"],
+    require("../assets/images/vehicles/boat.jpg"),
+    "barca",
+    "boat"
+  ),
+  new Flashcard(
+    "f58",
+    ["c4"],
+    require("../assets/images/vehicles/ship.jpg"),
+    "barco",
+    "ship"
+  ),
+  new Flashcard(
+    "f59",
+    ["c4"],
+    require("../assets/images/vehicles/helicopter.jpg"),
+    "helicóptero",
+    "helicopter"
+  ),
+  new Flashcard(
+    "f60",
+    ["c4"],
+    require("../assets/images/vehicles/airplane.jpg"),
+    "avión",
+    "airplane"
+  ),
+  new Flashcard(
+    "f61",
+    ["c4"],
+    require("../assets/images/vehicles/rocket.jpg"),
+    "cohete",
+    "rocket"
+  ),
+  new Flashcard(
+    "f62",
+    ["c4"],
+    require("../assets/images/vehicles/spaceship.jpg"),
+    "nave espacial",
+    "spaceship"
   ),
 ];
