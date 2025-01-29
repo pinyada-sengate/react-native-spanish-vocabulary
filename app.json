@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "spanish-vocabulary",
-    "slug": "spanish-vocabulary",
+    "name": "Spanish Vocabulary",
+    "slug": "Spanish-vocabulary",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,16 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pinyada.sengate.spanishvocabulary"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "396baa46-ff02-43f9-9887-ff48dac626fa"
+      }
     }
   }
 }
